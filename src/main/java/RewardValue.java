@@ -10,7 +10,7 @@ public class RewardValue {
     public RewardValue( int miles)
     {
         this.milesValue=miles;
-        this.cashValue=miles/Conversion_rate;
+        this.cashValue=miles*Conversion_rate;
     }
 
     public double getCashValue()
