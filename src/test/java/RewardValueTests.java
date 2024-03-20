@@ -28,7 +28,7 @@ public class RewardValueTests {
 
     @Test
     void convert_from_miles_to_cash() {
-        int milesValue= 250;
+        int milesValue= 2500;
         double expected_cash=milesValue*0.0035;
         var rewardValue =new RewardValue(milesValue);
         assertEquals(expected_cash, rewardValue.getCashValue());
